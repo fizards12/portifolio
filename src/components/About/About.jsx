@@ -7,7 +7,7 @@ import Certifactions from "./Certifactions";
 import Skills from "./Skills";
 import Footer from "../Footer";
 import Fade from "../utilitesComponents/Fade";
-import loadToPage from "../../HOC/LoadToPage";
+import loadToPage from "../../HOC/loadToPage.jsx";
 const About = () => {
   const [show, setShow] = useState(false);
   const [photo, setPhoto] = useState(null);

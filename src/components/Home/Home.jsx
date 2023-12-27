@@ -3,8 +3,8 @@ import face from "./assets/myFace.png";
 import "./home.css";
 import { TypeAnimation } from "react-type-animation";
 import { BsGithub, BsFacebook, BsLinkedin } from "react-icons/bs";
-import Fade from "../utilitesComponents/Fade";
-import loadToPage from "../../HOC/LoadToPage";
+import Fade from "../utilitesComponents/Fade.jsx";
+import loadToPage from "../../HOC/loadToPage";
 const Home = () => {
   return (
     <Container fluid className=" px-0">

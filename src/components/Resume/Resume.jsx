@@ -3,7 +3,7 @@ import Section from "./Section";
 import "./resume.css";
 import Footer from "../Footer";
 import Fade from "../utilitesComponents/Fade";
-import loadToPage from "../../HOC/LoadToPage";
+import loadToPage from "../../HOC/loadToPage";
 const Resume = () => {
   return (
     <>

@@ -1,4 +1,4 @@
-import { Modal, Row } from "react-bootstrap";
+import { Modal} from "react-bootstrap";
 
 const CertModal = ({ photo, show, onHide }) => {
   return (

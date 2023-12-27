@@ -8,7 +8,7 @@ import weathApp from "./assets/weather_app.PNG";
 import nodePhoto from "./assets/node.png";
 import "./projects.css";
 import Fade from "../utilitesComponents/Fade";
-import loadToPage from "../../HOC/LoadToPage";
+import loadToPage from "../../HOC/loadToPage";
 const Portifolio = () => {
   return (
     <>
