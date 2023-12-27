@@ -52,7 +52,7 @@ const Home = () => {
           >
             <a
               className={"me-3"}
-              href="https://www.facebook.com/mahmoud.sameh1"
+              href="https://www.facebook.com/mahmuod.sameh1"
             >
               <BsFacebook className="rounded-circle" />
             </a>
