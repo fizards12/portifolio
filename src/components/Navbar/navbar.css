@@ -1,0 +1,63 @@
+.nav-bar {
+    width: 100%;
+    flex-direction: column !important;
+}
+
+
+.link {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.link svg {
+    min-width: 50px;
+}
+
+.link span {
+    font-size: 15px;
+}
+
+.link:hover {
+    color: white;
+    background-color: #0563bb;
+}
+
+
+
+
+@media screen and (min-width: 991px) {
+    .link {
+        width: 50px;
+        height: 50px;
+        color: #3f4952;
+        padding: 0;
+    }
+
+    .link:hover {
+        width: 100%;
+    }
+
+    .link span {
+        display: none;
+        padding-right: 10px;
+    }
+
+    .link:hover span {
+        display: block;
+    }
+}
+
+.active {
+    color: white;
+    background-color: blue;
+}

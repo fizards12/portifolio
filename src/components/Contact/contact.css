@@ -1,0 +1,9 @@
+.contact {
+    background-color: rgba(238, 241, 247, 0.434) !important;
+    border-radius: inherit;
+    overflow: hidden;
+}
+
+.contact h5 {
+    background-color: rgba(221, 222, 232, 0.434);
+}

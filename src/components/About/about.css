@@ -1,0 +1,92 @@
+.about h2 {
+    font-size: 1.35rem;
+    color: rgb(102, 116, 156);
+    text-shadow: 0 8px 4px rgb(167, 167, 167);
+}
+
+.about img[alt="mahmoud sameh"] {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+.about div[scope="table"] {
+    background-color: rgba(248, 248, 255, 0.518);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(76, 76, 76);
+}
+
+
+.about div[scope="col"] {
+    position: relative;
+}
+
+
+.about div[scope="col"]::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: rgb(180, 188, 255);
+    height: 1px;
+    box-shadow: 0 1px 3px rgb(151, 151, 151);
+}
+
+.about div[scope="col"]:last-of-type:after {
+    content: unset;
+}
+
+
+.about div[scope="skill-bar"] {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgb(206, 206, 231);
+}
+
+
+
+
+.about div[scope="cert-card"] a {
+    color: rgb(113, 113, 113);
+    font-size: 1.2rem;
+    transition: color linear 300ms;
+}
+
+.about div[scope="cert-card"] a:hover {
+    color: rgb(69, 69, 72);
+}
+
+.about div[scope="cert-card"]:hover {
+    background-color: rgb(215, 215, 229);
+    box-shadow: 2px 2px 5px rgb(169, 169, 169);
+}
+
+.about div[scope="cert-img"] {
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(162, 162, 162);
+}
+
+.about div[scope="cert-img"] {
+    padding: 0;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 991px) {
+    .about div[scope="col"]:nth-last-of-type(2)::after {
+        content: unset;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about h4 {
+        font-size: 1.0rem;
+    }
+
+    .about {
+        font-size: 0.8rem;
+    }
+}

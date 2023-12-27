@@ -1,0 +1,78 @@
+.header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+
+.face {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header div:nth-of-type(1) {
+    z-index: 2;
+}
+
+.header span {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header span:nth-of-type(2) {
+    font-size: 1.5rem;
+}
+
+.header div a {
+    font-size: 1.7rem;
+    color: #060832;
+}
+
+.header div a svg {
+    transition: box-shadow 200ms ease-in-out;
+}
+
+.header div a:hover svg {
+    box-shadow: 0 0 6px black;
+
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .face img {
+        opacity: 0.5;
+    }
+
+    .face {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header span {
+        font-size: 3em;
+    }
+
+    .header span:nth-of-type(2) {
+        font-size: 1.3rem;
+    }
+
+    .header{
+        overflow: hidden;
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        top: 0
+    }
+
+    100% {
+        top: -100%;
+    }
+}
